@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff8c00;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 2em 0;
+}
+
+#inicio {
+    background-color: #f9f9f9;
+}
+
+#productos {
+    background-color: #f1f1f1;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.producto {
+    text-align: center;
+    width: 30%;
+}
+
+#contacto {
+    background-color: #f9f9f9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label, form input, form textarea, form button {
+    margin-bottom: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8c00;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e67e00;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}

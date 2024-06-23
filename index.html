@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Mascotas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Tienda de Mascotas</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una tienda dedicada a ofrecer los mejores productos para tus mascotas. Encuentra todo lo que necesitas para el cuidado y la felicidad de tus amigos peludos.</p>
+        <img src="im1.jpg" alt="Tienda de Mascotas">
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="productos">
+            <div class="producto">
+                <h3>Alimento para Perros</h3>
+                <img src="img2.jpg" alt="Alimento para Perros">
+                <p>Los mejores alimentos para mantener a tu perro saludable y feliz.</p>
+            </div>
+            <div class="producto">
+                <h3>Juguetes para Gatos</h3>
+                <img src="img3.jpg" alt="Juguetes para Gatos">
+                <p>Juguetes divertidos y seguros para mantener a tu gato entretenido.</p>
+            </div>
+            <div class="producto">
+                <h3>Accesorios para Aves</h3>
+                <img src="img4.jpg" alt="Accesorios para Aves">
+                <p>Todo lo que necesitas para el bienestar de tus aves.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Mascotas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
